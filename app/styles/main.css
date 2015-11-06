@@ -13,18 +13,57 @@
 .middle-big-box {
   width: 97%;
   height: 98%;
-  border: .2em solid yellow;
+  border: .2em solid gold;
   margin: 1em 1em 1em 1em;
 }
 .inner-big-box {
   width: 97%;
   height: 98%;
-  border: .2em solid yellow;
+  border: .2em solid darkgoldenrod;
   margin: 1em 1em 1em 1em;
+}
+.gold-ticker {
+  width: 50%;
+  height: 3em;
+  border: 2px solid goldenrod;
+  margin: auto;
+  margin-top: 1%;
+}
+.jabber-box {
+  width: 96%;
+  height: 10%;
+  border: 2px solid darkgoldenrod;
+  margin: auto;
+  margin-top: 1%;
+}
+p {
+  color: yellow;
+  text-align: center;
 }
 h1 {
   font-family: Georgia;
   color: yellow;
   font-size: 10em;
   text-align: center;
+  transition: all 0.6s ease-and-out;
+}
+h1:hover {
+  color: gold;
+}
+.title-box {
+  border: 3px solid gold;
+  margin: 1.5% 1.5% 1.5% 1.5%;
+}
+.product {
+  width: 30%;
+  height: 30%;
+  float: left;
+  border: 2px solid goldenrod;
+  margin: 1% 0 1% 2%;
+}
+.product-pic {
+  margin-left: 25%;
+  margin-bottom: 1em;
+  width: 49%;
+  height: 49%;
 }
